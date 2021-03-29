@@ -16,13 +16,16 @@ const Navbar = props => {
                 <li>
                     <Link to="/about">About</Link>
                 </li>
+                <li>
+                    <a href="http://agk_jsprojects.surge.sh/">Back</a>
+                </li>
             </ul>
         </nav>
     )
 }
 
 Navbar.defaultProps = {
-    title: ' Github Finder',
+    title: ' AGK Github Finder',
     icon: 'fab fa-github'
 }
 

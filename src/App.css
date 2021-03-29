@@ -2,7 +2,7 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #dc3545;
+  --primary-color: #7563d8;
   --dark-color: #333333;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
@@ -112,7 +112,7 @@ img {
 /* Cards */
 .card {
   padding: 1rem;
-  border: #ccc 1px dotted;
+  border: rgb(119, 91, 221) 1px dotted;
   margin: 0.7rem 0;
 }
 
@@ -217,7 +217,11 @@ img {
 
 .btn-block {
   display: block;
-  width: 100%;
+  float: right;
+  margin-top: -56px;
+  margin-right: -2px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .btn-sm {
@@ -283,6 +287,12 @@ img {
 .alert-success {
   background: var(--success-color);
   color: #fff;
+}
+
+.clear {
+  width: 100%;
+  background-color: rgb(160, 150, 189);
+  font-weight: bold;
 }
 
 .btn-white,
